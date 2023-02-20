@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Mi Portafolio</title>
+    <link rel="stylesheet" href="david.css">
+  </head>
+  <body>
+    <header>
+      <h1>Mi Portafolio</h1>
+      <nav>
+        <ul>
+          <li><a href="#about">Sobre mí</a></li>
+          <li><a href="#projects">Proyectos</a></li>
+          <li><a href="#contact">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
+    
+    <main>
+      <section id="about">
+        <h2>Sobre mí</h2>
+        <p>Mi nombre es Juan y soy un desarrollador web apasionado por el diseño y la programación. Me gusta crear sitios web hermosos y funcionales que brinden una excelente experiencia al usuario.</p>
+      </section>
+      
+      <section id="projects">
+        <h2>Proyectos</h2>
+        <ul>
+          <li>
+            <h3>Proyecto 1</h3>
+            <p>Descripción del proyecto 1</p>
+          </li>
+          <li>
+            <h3>Proyecto 2</h3>
+            <p>Descripción del proyecto 2</p>
+          </li>
+          <li>
+            <h3>Proyecto 3</h3>
+            <p>Descripción del proyecto 3</p>
+          </li>
+        </ul>
+      </section>
+      
+      <section id="contact">
+        <h2>Contacto</h2>
+        <form action="submit-form.php" method="POST">
+          <label for="name">Nombre</label>
+          <input type="text" id="name" name="name" required>
+          
+          <label for="email">Correo electrónico</label>
+          <input type="email" id="email" name="email" required>
+          
+          <label for="message">Mensaje</label>
+          <textarea id="message" name="message" required></textarea>
+          
+          <button type="submit">Enviar</button>
+        </form>
+      </section>
+    </main>
+    
+    <footer>
+      <p>© 2023 Juan. Todos los derechos reservados.</p>
+    </footer>
+    
+    <script src="script.js"></script>
+  </body>
+</html
